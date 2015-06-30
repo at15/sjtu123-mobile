@@ -1,4 +1,4 @@
-.navbar-brand > img{
+.navbar-brand > img {
     width: auto;
     height: 40px;
 }
@@ -8,7 +8,15 @@
     vertical-align: middle;
 }
 
-.navbar-form  > .form-group,
-.navbar-form button{
-    margin-top: 10px;
+/*.navbar-form  > .form-group,*/
+/*.navbar-form button{*/
+/*margin-top: 10px;*/
+/*}*/
+
+.navbar-form > .form-control {
+    width: 80%;
+}
+
+.navbar-form input {
+    float: left;
 }
