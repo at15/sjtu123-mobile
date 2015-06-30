@@ -2,3 +2,13 @@
     width: auto;
     height: 40px;
 }
+
+.navbar-form {
+    height: 70px;
+    vertical-align: middle;
+}
+
+.navbar-form  > .form-group,
+.navbar-form button{
+    margin-top: 10px;
+}
