@@ -1,11 +1,17 @@
+.cls {
+    clear: both;
+}
+
 .navbar-brand > img {
     width: auto;
     height: 40px;
 }
 
 .navbar-form {
-    height: 70px;
+    height: 40px;
     vertical-align: middle;
+    margin: auto;
+    /*padding-left: 10px;*/
 }
 
 /*.navbar-form  > .form-group,*/
@@ -14,9 +20,33 @@
 /*}*/
 
 .navbar-form > .form-control {
-    width: 80%;
+    width: 75%;
 }
 
 .navbar-form input {
     float: left;
+    margin-left: 1%;
+}
+
+.link-block {
+    padding: 2%;
+}
+
+.link-block .col-xs-6{
+    margin-bottom: 1%;
+}
+
+.link-block img {
+    width: 60%;
+    height: auto;
+}
+
+.link-block a {
+    text-decoration: none;
+}
+
+.link-block a > span {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
 }
